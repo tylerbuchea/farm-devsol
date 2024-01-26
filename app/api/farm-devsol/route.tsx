@@ -9,7 +9,7 @@ import {
 } from "@solana/web3.js";
 import { NextResponse } from "next/server";
 
-const WHALE_WALLET = "";
+const WHALE_WALLET = process.env.WHALE_WALLET_ADDRESS!;
 const RPC_URL = "https://api.devnet.solana.com";
 
 export async function GET(req: Request) {

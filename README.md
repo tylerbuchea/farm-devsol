@@ -2,8 +2,8 @@
 
 ```bash
 pnpm install
-
-# change WHALE_WALLET variable in ./app/api/farm-devsol
-
+# add WHALE_WALLET_ADDRESS to environment variables
 pnpm dev
+
+# deploy to vercel.com
 ```
